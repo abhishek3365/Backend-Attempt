@@ -1,0 +1,15 @@
+{
+    "db_settings" : {
+        "dev_settings" : {
+            "username": "testuser",
+            "password": "Admin12345",
+            "database": "FootballDb",
+            "host": "localhost",
+            "dialect": "mssql",
+            "dialectOptions" : {
+                "instanceName" : "SQLEXPRESS"
+            }
+        }
+    }
+
+}
