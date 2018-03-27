@@ -13,3 +13,7 @@ function start(config) {
     manager.setConfig(config, config["environment-settings"].environment);
     startService(config);
 };
+
+function startService ( config ){
+    
+}

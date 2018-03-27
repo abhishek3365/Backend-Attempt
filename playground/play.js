@@ -1,5 +1,5 @@
-var dao = require('../data-access/data-access-layer');
+var appservices = require('../business-layer/app.services');
 
-dao.teamDao.getTeams().then( (teams) => {
+appservices.teamServices.getTeams().then( (teams) => {
     console.log(JSON.stringify(teams));
 } );
