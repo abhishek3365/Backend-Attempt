@@ -10,7 +10,6 @@ module.exports.start = start;
  */
 function start(config) {
     logger.setConfig(config["logger-settings"]);
-    manager.setConfig(config, config["environment-settings"].environment);
     startService(config);
 };
 
